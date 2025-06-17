@@ -1,5 +1,5 @@
 {
-	"name": "wapmorgan/mp3info",
+	"name": "dgoriaev/mp3info",
 	"type": "library",
 	"license": "LGPL-3.0",
 	"keywords": ["mp3", "audio", "id3", "id3v1", "id3v2", "mpeg"],
