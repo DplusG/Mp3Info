@@ -1,5 +1,5 @@
 <?php
-use wapmorgan\Mp3Info\Mp3Info;
+use dgoriaev\Mp3Info\Mp3Info;
 
 $data = [
     Mp3Info::MPEG_1 => [

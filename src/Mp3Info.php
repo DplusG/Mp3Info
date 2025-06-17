@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\Mp3Info;
+namespace dgoriaev\Mp3Info;
 
 use Exception;
 use RuntimeException;

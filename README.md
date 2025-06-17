@@ -42,7 +42,7 @@ This class extracts information from mpeg/mp3 audio:
 After creating an instance of `Mp3Info` with passing filename as the first argument to the constructor, you can retrieve data from object properties (listed below).
 
 ```php
-use wapmorgan\Mp3Info\Mp3Info;
+use dgoriaev\Mp3Info\Mp3Info;
 // To get basic audio information
 $audio = new Mp3Info('./audio.mp3');
 
