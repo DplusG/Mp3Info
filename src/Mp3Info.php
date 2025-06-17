@@ -389,6 +389,10 @@ class Mp3Info {
         $this->bitRate = self::$_bitRateTable[$this->codecVersion][$this->layerVersion][$header_bytes[2] >> 4];
         $this->sampleRate = self::$_sampleRateTable[$this->codecVersion][($header_bytes[2] >> 2) & 0b11];
 
+        if (!$this->bitRate && !$this->sampleRate) {
+            return null;
+        }
+
         switch ($header_bytes[3] >> 6) {
             case 0b00: $this->channel = self::STEREO; break;
             case 0b01: $this->channel = self::JOINT_STEREO; break;
